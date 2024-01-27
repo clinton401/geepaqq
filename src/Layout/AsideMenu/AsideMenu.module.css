@@ -1,0 +1,63 @@
+aside {
+    height: 100%;
+    width: 5%;
+    position: fixed;
+    left: 0;
+    z-index: 20000;
+    top: 0;
+    min-height: 600px;
+    /* border: 1px solid red; */
+    
+min-width: 80px;
+display: flex;
+flex-direction: column;
+background-color: white;
+/* background-color: (var(--white)); */
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+.aside section {
+border-right: 1px solid #EBECF2;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background: #F7F8FA;
+
+width: 100%;
+
+padding: 20px 0;
+height: 90%;
+}
+.aside section div {
+    display: flex;
+    gap: 16px 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.aside a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    width: auto;
+}
+.asidespan {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.dltoggle {
+    display: flex;
+padding: 8px;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+border: none;
+border-radius: 100px;
+background: var(--white);
+}
